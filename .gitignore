@@ -1,0 +1,23 @@
+# === Build Artifacts ===
+/build/
+/install/
+/log/
+
+# === VS Code settings ===
+.vscode/
+
+# === CMake and colcon metadata ===
+CMakeCache.txt
+CMakeFiles/
+colcon_command_prefix_build.sh
+
+# === Python cache (if you add scripts later) ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Misc ===
+*.swp
+*.bak
+*.tmp
+.DS_Store
